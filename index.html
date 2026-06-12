@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Naga Nandini — WordPress, Shopify & Front-End Developer. 2+ years building responsive, high-performance websites.">
+  <meta name="keywords" content="WordPress Developer, Shopify Developer, Front-End Developer, Naga Nandini, Web Developer">
+  <meta name="author" content="Naga Nandini">
+  <title>Naga Nandini | WordPress & Front-End Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav__logo" aria-label="Naga Nandini — Home">
+        <span class="nav__logo-bracket"></span>Nandini<span class="nav__logo-accent"> .M</span><span class="nav__logo-bracket"></span>
+      </a>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link active">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="nav__cta btn btn--gold btn--sm">Hire Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <div class="hero__content container reveal">
+        <p class="hero__greeting">Hello, I'm</p>
+        <h1 class="hero__title">Naga Nandini</h1>
+        <p class="hero__subtitle">
+          <span class="hero__typing" id="typing-text"></span><span class="hero__cursor" aria-hidden="true">|</span>
+        </p>
+        <p class="hero__intro">
+          Passionate Web Developer with 2+ years of experience creating responsive, high-performance websites using WordPress, Shopify, and modern web technologies.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--gold">
+            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn--outline">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+        <span>Scroll</span>
+        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">About Me</span>
+          <h2 class="section__title">Crafting Digital Experiences</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__image reveal">
+            <div class="about__image-frame">
+              <div class="about__image-placeholder" role="img" aria-label="Naga Nandini profile photo placeholder">
+                <i class="fa-solid fa-user" aria-hidden="true"></i>
+              </div>
+              <div class="about__image-accent"></div>
+            </div>
+          </div>
+
+          <div class="about__content reveal">
+            <h3 class="about__heading">WordPress & Front-End Developer</h3>
+            <p class="about__text">
+              I'm a dedicated web developer with over 2 years of professional experience specializing in WordPress development, Shopify stores, and modern front-end technologies. I transform ideas into elegant, functional websites that deliver exceptional user experiences.
+            </p>
+            <p class="about__text">
+              My expertise spans website development, theme customization, performance optimization, and responsive design. I focus on building fast, SEO-friendly sites that look stunning on every device and help businesses grow their online presence.
+            </p>
+            <ul class="about__highlights">
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> 2+ Years of Experience</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Theme Customization Expert</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Performance Optimization</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true"></i> Mobile-First Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">My Skills</span>
+          <h2 class="section__title">Technologies I Work With</h2>
+        </div>
+
+        <div class="skills__grid">
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-brands fa-wordpress" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">WordPress</h3>
+            <p class="skill-card__desc">Custom themes, plugins & CMS solutions</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-solid fa-layer-group" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">Elementor</h3>
+            <p class="skill-card__desc">Page builder & visual design</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-brands fa-shopify" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">Shopify</h3>
+            <p class="skill-card__desc">E-commerce store development</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-brands fa-html5" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">HTML5</h3>
+            <p class="skill-card__desc">Semantic & accessible markup</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">CSS3</h3>
+            <p class="skill-card__desc">Modern layouts & animations</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-brands fa-js" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">JavaScript</h3>
+            <p class="skill-card__desc">Interactive & dynamic features</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-brands fa-php" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">Basic PHP</h3>
+            <p class="skill-card__desc">WordPress backend customization</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-solid fa-palette" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">Theme Customization</h3>
+            <p class="skill-card__desc">Tailored design & functionality</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">Website Optimization</h3>
+            <p class="skill-card__desc">Speed, SEO & performance tuning</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-card__icon"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i></div>
+            <h3 class="skill-card__title">Mobile Responsive Design</h3>
+            <p class="skill-card__desc">Flawless experience on all devices</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">Portfolio</span>
+          <h2 class="section__title">Featured Projects</h2>
+        </div>
+
+        <div class="projects__grid">
+          <article class="project-card reveal">
+            <div class="project-card__image project-card__image--1">
+              <span class="project-card__badge">WordPress</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Corporate Business Website</h3>
+              <p class="project-card__desc">A fully responsive corporate website with custom WordPress theme, dynamic content sections, and optimized performance for lead generation.</p>
+              <div class="project-card__tags">
+                <span>WordPress</span><span>Elementor</span><span>PHP</span>
+              </div>
+              <div class="project-card__actions">
+                <a href="#" class="btn btn--gold btn--sm">Live Demo</a>
+                <a href="#" class="btn btn--outline btn--sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image project-card__image--2">
+              <span class="project-card__badge">Shopify</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Fashion E-Commerce Store</h3>
+              <p class="project-card__desc">Modern Shopify store with custom product pages, seamless checkout flow, and mobile-first design for a fashion brand.</p>
+              <div class="project-card__tags">
+                <span>Shopify</span><span>Liquid</span><span>CSS3</span>
+              </div>
+              <div class="project-card__actions">
+                <a href="#" class="btn btn--gold btn--sm">Live Demo</a>
+                <a href="#" class="btn btn--outline btn--sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image project-card__image--3">
+              <span class="project-card__badge">WordPress</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Restaurant & Cafe Website</h3>
+              <p class="project-card__desc">Elegant restaurant website featuring online menu, reservation system, and stunning visual design built with Elementor.</p>
+              <div class="project-card__tags">
+                <span>WordPress</span><span>Elementor</span><span>JavaScript</span>
+              </div>
+              <div class="project-card__actions">
+                <a href="#" class="btn btn--gold btn--sm">Live Demo</a>
+                <a href="#" class="btn btn--outline btn--sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image project-card__image--4">
+              <span class="project-card__badge">Front-End</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Portfolio Landing Page</h3>
+              <p class="project-card__desc">A sleek, animated portfolio landing page with smooth scroll effects, dark theme, and fully responsive layout.</p>
+              <div class="project-card__tags">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+              <div class="project-card__actions">
+                <a href="#" class="btn btn--gold btn--sm">Live Demo</a>
+                <a href="#" class="btn btn--outline btn--sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image project-card__image--5">
+              <span class="project-card__badge">WordPress</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Blog & Magazine Platform</h3>
+              <p class="project-card__desc">Content-rich blog platform with custom post types, category filtering, and SEO-optimized structure for publishers.</p>
+              <div class="project-card__tags">
+                <span>WordPress</span><span>PHP</span><span>CSS3</span>
+              </div>
+              <div class="project-card__actions">
+                <a href="#" class="btn btn--gold btn--sm">Live Demo</a>
+                <a href="#" class="btn btn--outline btn--sm">View Details</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__image project-card__image--6">
+              <span class="project-card__badge">Shopify</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Health & Wellness Store</h3>
+              <p class="project-card__desc">Shopify wellness store with subscription products, custom theme sections, and optimized conversion funnel.</p>
+              <div class="project-card__tags">
+                <span>Shopify</span><span>JavaScript</span><span>HTML5</span>
+              </div>
+              <div class="project-card__actions">
+                <a href="#" class="btn btn--gold btn--sm">Live Demo</a>
+                <a href="#" class="btn btn--outline btn--sm">View Details</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">Career</span>
+          <h2 class="section__title">Professional Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">Core Expertise</span>
+              <h3 class="timeline__title">WordPress Development</h3>
+              <p class="timeline__desc">Building custom WordPress websites, themes, and plugins. Creating scalable CMS solutions with clean code and intuitive admin experiences for clients across industries.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">E-Commerce</span>
+              <h3 class="timeline__title">Shopify Development</h3>
+              <p class="timeline__desc">Designing and developing Shopify stores with custom themes, product configurations, and optimized checkout experiences to drive sales and customer satisfaction.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">Performance</span>
+              <h3 class="timeline__title">Website Optimization</h3>
+              <p class="timeline__desc">Improving site speed, Core Web Vitals, and SEO rankings through image optimization, caching strategies, code minification, and best-practice implementations.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">Design</span>
+              <h3 class="timeline__title">Responsive Design Implementation</h3>
+              <p class="timeline__desc">Crafting mobile-first, pixel-perfect layouts that adapt seamlessly across desktops, tablets, and smartphones using modern CSS techniques.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <span class="timeline__period">Customization</span>
+              <h3 class="timeline__title">Custom Theme Customization</h3>
+              <p class="timeline__desc">Tailoring existing themes and building bespoke designs to match brand identity, including custom post types, widgets, and advanced functionality.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__label">Get In Touch</span>
+          <h2 class="section__title">Let's Work Together</h2>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <p class="contact__intro">
+              Have a project in mind or want to discuss opportunities? I'd love to hear from you. Fill out the form or reach out directly.
+            </p>
+
+            <ul class="contact__details">
+              <li>
+                <div class="contact__detail-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                <div>
+                  <span class="contact__detail-label">Phone</span>
+                  <a href="tel:+919676526334">9676526334</a>
+                </div>
+              </li>
+              <li>
+                <div class="contact__detail-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                <div>
+                  <span class="contact__detail-label">Email</span>
+                  <a href="mailto:naganandinisri999@gmail.com">naganandinisri999@gmail.com</a>
+                </div>
+              </li>
+            </ul>
+
+            <div class="social-links">
+              <a href="https://www.behance.net/nandinim10" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Behance profile">
+                <i class="fa-brands fa-behance" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/naganandini-mididoddi-b053b4260" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact__form reveal" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+              <span class="form-error" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+              <span class="form-error" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+              <span class="form-error" id="subject-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn--gold btn--full">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              Send Message
+            </button>
+            <p class="form-success" id="form-success" role="status" hidden>Thank you! Your message has been sent successfully.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo">
+          <span class="nav__logo-bracket">&lt;</span>Naga<span class="nav__logo-accent">N</span><span class="nav__logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer__tagline">WordPress & Front-End Developer crafting premium web experiences.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h4 class="footer__heading">Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <h4 class="footer__heading">Connect</h4>
+        <div class="social-links">
+          <a href="https://www.behance.net/nandinim10" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+            <i class="fa-brands fa-behance" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/naganandini-mididoddi-b053b4260" class="social-links__item" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom container">
+      <p>&copy; <span id="year"></span> Naga Nandini. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
