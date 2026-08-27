@@ -634,14 +634,14 @@ button {
 }
 
 .project-card__image--1 { 
-  background: url('https://naganandini-portfolio.lovable.app/assets/project-jolaali-Qh-Bk-ax.png');
+  background: url('images/Jolaali.png');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 }
 .project-card__image--2 { 
-  background: url('https://naganandini-portfolio.lovable.app/assets/project-prowesssoft-BF0JHTCH.png');
+  background: url('images/prowessoft.png');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 }
 .project-card__image--3 { 
   background: url('images/skyshade.png');
@@ -649,17 +649,17 @@ button {
   background-position: center top;
 }
 .project-card__image--4 { 
-  background: url('https://www.aksharaconsultants.in/wp-content/uploads/2026/01/akshara_products.png');
+  background: url('images/akshara.png');
   background-size: cover;
   background-position: center top;
 }
 .project-card__image--5 { 
-  background: url('https://pmbconstructionandinteriors.com/wp-content/uploads/2025/09/500-500-5-2.webp');
+  background: url('images/pmb.jpg');
   background-size: cover;
   background-position: center top;
 }
 .project-card__image--6 { 
-  background: url('https://naganandini-portfolio.lovable.app/assets/project-cupcake-CFpJXa3u.png');
+  background: url('images/fitness.png');
   background-size: cover;
   background-position: center top;
 }
